@@ -1,8 +1,10 @@
-# DocuMind Prototype
+# DocuMind
+
+![DocuMind](./demoimages/documind-banner-v2.png)
 
 **Team Name:** four.dev
 
-**Challenge Area:** Financial Operations & Small Business Automation
+**Challenge Area:** Financial Inclusion / Trust & Misinformation Automation
 
 ## 1. Project Overview
 
@@ -11,7 +13,7 @@ DocuMind Local is an offline-first application designed to help small businesses
 The project uses local AI to assist with document data extraction and categorization, helping business owners save time and make informed financial decisions.
 
 ## 2. Problem Statement
-
+![DocuMind](./demoimages/problemsolving.png)
 Small business owners and local retailers often process receipts and invoices manually. This approach is time-consuming and can lead to inconsistent financial records, data-entry errors, and difficulties making informed business decisions.
 
 DocuMind Local aims to address these challenges through automated document processing, AI-assisted data extraction, and financial analytics.
@@ -20,11 +22,41 @@ DocuMind Local aims to address these challenges through automated document proce
 
 DocuMind Local provides receipt and invoice uploads, AI-powered data extraction, validation of extracted information, document review and confirmation, invoice management, document processing status tracking, and a financial dashboard.
 
+## Data Upload and Processing
+![DocuMind](./demoimages/dataupload.png)
 Users can review and correct extracted information before confirming a document and saving it as an invoice. This keeps human review an important part of the process.
 
-## 4. Technology Stack
 
-The project uses HTML, CSS, and JavaScript for the frontend, Node.js for backend services, Ollama for local AI processing, and PostgreSQL (Neon) for database storage. Multer handles file uploads, while Sharp supports image processing.
+## Viewing Dashboard
+a dashboard user can view all their data analysez and arranged in accordance to their importance
+![DocuMind](./demoimages/dashboard.png)
+
+## Document Validation for mistrust and misinformation
+![DocuMind](./demoimages/dashboard.png)
+
+## 4. Technology Stack
+This project uses
+![DocuMind](./demoimages/documind-architecture.png)
+
+
+#### FrontEnd 
+---
+- HTML, 
+- CSS,
+- JavaScript(DOM Manipulation)
+
+### BackEnd
+ - Node.js for backend services, 
+ - Ollama for local AI processing, 
+ - PostgreSQL (Neon) for database storage. 
+ - Multer handles file uploads,
+ - Sharp supports image processing.
+
+ ### Data Storage
+ - PostgreSQL
+
+  ### Local AI Model Used
+ - Qwen 3.5:4b parameter(2GB size on Disk)
 
 ## 5. Installation and Setup
 
