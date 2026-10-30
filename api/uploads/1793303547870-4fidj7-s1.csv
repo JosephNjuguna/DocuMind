@@ -1,0 +1,122 @@
+INVOICE ID,Sale Date,Customer Name,Customer Contact,SKU,Product Name,Category,Brand / Supplier,Unit,Qty Sold,Unit Price (KES),Amount (KES),VAT Rate (%),VAT Amount (KES),Total Amount (KES),Payment Status,Payment Date,Payment Method
+SAL-2026-0001,2026-08-29T03:00:00+03:00,Mombasa Road Electricals,+254 700 000 111,ELC-004,LED Bulb 12W,Electrical,Philips,Piece,33,250,8250,0.16,1320,9570,Paid,2026-09-01T03:00:00+03:00,Cheque
+SAL-2026-0002,2026-08-29T03:00:00+03:00,Mwangi & Sons Contractors,+254 700 000 101,CEM-001,Bamburi Tembo Cement 50kg,Cement,Bamburi Cement,Bag,103,780,80340,0.16,12854.4,93194.4,Paid,2026-09-12T03:00:00+03:00,M-Pesa
+SAL-2026-0003,2026-08-31T03:00:00+03:00,Akinyi Painters & Decorators,+254 700 000 115,HRD-003,Padlock 50mm,Tools & Hardware,Yale,Piece,5,650,3250,0.16,520,3770,Paid,2026-09-04T03:00:00+03:00,M-Pesa
+SAL-2026-0004,2026-08-31T03:00:00+03:00,Wanjiru Interiors,+254 700 000 113,HRD-004,"Door Hinge 4"" (pair)",Tools & Hardware,Generic,Pair,23,280,6440,0.16,1030.4,7470.4,Paid,2026-09-10T03:00:00+03:00,Bank Transfer
+SAL-2026-0005,2026-09-02T03:00:00+03:00,Karen Homes Ltd,+254 700 000 106,ROF-001,Box Profile Iron Sheet G30 3m,Roofing,Mabati Rolling Mills,Sheet,132,850,112200,0.16,17952,130152,Paid,2026-09-13T03:00:00+03:00,Cheque
+SAL-2026-0006,2026-09-03T03:00:00+03:00,Rift Valley Builders,+254 700 000 103,ROF-004,Timber 2x4 Cypress 12ft,Roofing,Local Sawmill,Piece,18,650,11700,0.16,1872,13572,Paid,2026-09-13T03:00:00+03:00,Cheque
+SAL-2026-0007,2026-09-04T03:00:00+03:00,Karen Homes Ltd,+254 700 000 106,CEM-001,Bamburi Tembo Cement 50kg,Cement,Bamburi Cement,Bag,115,780,89700,0.16,14352,104052,Paid,2026-09-17T03:00:00+03:00,M-Pesa
+SAL-2026-0008,2026-09-04T03:00:00+03:00,Walk-in Customer,-,CEM-001,Bamburi Tembo Cement 50kg,Cement,Bamburi Cement,Bag,3,780,2340,0.16,374.4,2714.4,Paid,2026-09-04T03:00:00+03:00,Cash
+SAL-2026-0009,2026-09-04T03:00:00+03:00,Nyali Plumbing Services,+254 700 000 109,PLB-005,"HDPE Pipe 1"" 100m Coil",Plumbing,Kenpoly,Coil,2,8500,17000,0.16,2720,19720,Paid,2026-09-07T03:00:00+03:00,Bank Transfer
+SAL-2026-0010,2026-09-05T03:00:00+03:00,Wanjiru Interiors,+254 700 000 113,HRD-003,Padlock 50mm,Tools & Hardware,Yale,Piece,4,650,2600,0.16,416,3016,Paid,2026-09-05T03:00:00+03:00,Cheque
+SAL-2026-0011,2026-09-05T03:00:00+03:00,Mutua Plumbers & Fitters,+254 700 000 110,PLB-002,"PVC Pipe 2"" (50mm) 6m",Plumbing,Kenpipe,Piece,20,950,19000,0.16,3040,22040,Paid,2026-09-08T03:00:00+03:00,M-Pesa
+SAL-2026-0012,2026-09-05T03:00:00+03:00,Mutua Plumbers & Fitters,+254 700 000 110,PLB-001,"PVC Pipe 4"" (110mm) 6m",Plumbing,Kenpipe,Piece,16,2400,38400,0.16,6144,44544,Paid,2026-09-15T03:00:00+03:00,Bank Transfer
+SAL-2026-0013,2026-09-07T03:00:00+03:00,Wanjiru Interiors,+254 700 000 113,HRD-005,Mortise Door Lock Set,Tools & Hardware,Yale,Set,8,1450,11600,0.16,1856,13456,Paid,2026-09-13T03:00:00+03:00,Bank Transfer
+SAL-2026-0014,2026-09-07T03:00:00+03:00,Lakeside Constructors,+254 700 000 104,ROF-001,Box Profile Iron Sheet G30 3m,Roofing,Mabati Rolling Mills,Sheet,47,850,39950,0.16,6392,46342,Paid,2026-09-13T03:00:00+03:00,Bank Transfer
+SAL-2026-0015,2026-09-07T03:00:00+03:00,Walk-in Customer,-,PLB-004,"Brass Tap 1/2""",Plumbing,Generic,Piece,2,650,1300,0.16,208,1508,Paid,2026-09-07T03:00:00+03:00,Cash
+SAL-2026-0016,2026-09-07T03:00:00+03:00,Walk-in Customer,-,BLD-002,"Wire Nails 4"" (per kg)",Building Materials,Generic,Kg,3,190,570,0.16,91.2,661.2,Paid,2026-09-07T03:00:00+03:00,M-Pesa
+SAL-2026-0017,2026-09-08T03:00:00+03:00,Karen Homes Ltd,+254 700 000 106,CEM-002,Savannah Cement 50kg,Cement,Savannah Cement,Bag,79,740,58460,0.16,9353.6,67813.6,Paid,2026-09-17T03:00:00+03:00,Bank Transfer
+SAL-2026-0018,2026-09-09T03:00:00+03:00,Walk-in Customer,-,HRD-001,Claw Hammer 16oz,Tools & Hardware,Stanley,Piece,1,750,750,0.16,120,870,Paid,2026-09-09T03:00:00+03:00,M-Pesa
+SAL-2026-0019,2026-09-09T03:00:00+03:00,Highland Roofing Co.,+254 700 000 108,ROF-001,Box Profile Iron Sheet G30 3m,Roofing,Mabati Rolling Mills,Sheet,122,850,103700,0.16,16592,120292,Paid,2026-09-09T03:00:00+03:00,Bank Transfer
+SAL-2026-0020,2026-09-14T03:00:00+03:00,Rift Valley Builders,+254 700 000 103,CEM-003,Rhino Cement 42.5N 50kg,Cement,Rhino Cement,Bag,89,730,64970,0.16,10395.2,75365.2,Paid,2026-09-28T03:00:00+03:00,Bank Transfer
+SAL-2026-0021,2026-09-15T03:00:00+03:00,Wanjiru Interiors,+254 700 000 113,PNT-004,"Paint Roller 9"" with Tray",Paints & Finishes,Generic,Set,14,450,6300,0.16,1008,7308,Paid,2026-09-25T03:00:00+03:00,Bank Transfer
+SAL-2026-0022,2026-09-15T03:00:00+03:00,Walk-in Customer,-,HRD-001,Claw Hammer 16oz,Tools & Hardware,Stanley,Piece,1,750,750,0.16,120,870,Paid,2026-09-15T03:00:00+03:00,M-Pesa
+SAL-2026-0023,2026-09-15T03:00:00+03:00,Rift Valley Builders,+254 700 000 103,STL-002,Y10 Steel Bar 12m,Steel & Reinforcement,Devki Steel Mills,Piece,59,950,56050,0.16,8968,65018,Paid,2026-09-19T03:00:00+03:00,M-Pesa
+SAL-2026-0024,2026-09-16T03:00:00+03:00,Kilimani Finishes Ltd,+254 700 000 114,PNT-004,"Paint Roller 9"" with Tray",Paints & Finishes,Generic,Set,7,450,3150,0.16,504,3654,Paid,2026-09-18T03:00:00+03:00,Cheque
+SAL-2026-0025,2026-09-17T03:00:00+03:00,Walk-in Customer,-,ELC-005,MCB Circuit Breaker 20A,Electrical,Legrand,Piece,2,650,1300,0.16,208,1508,Paid,2026-09-17T03:00:00+03:00,M-Pesa
+SAL-2026-0026,2026-09-17T03:00:00+03:00,Walk-in Customer,-,ROF-004,Timber 2x4 Cypress 12ft,Roofing,Local Sawmill,Piece,6,650,3900,0.16,624,4524,Paid,2026-09-17T03:00:00+03:00,M-Pesa
+SAL-2026-0027,2026-09-17T03:00:00+03:00,Kamau Construction Ltd,+254 700 000 102,HRD-005,Mortise Door Lock Set,Tools & Hardware,Yale,Set,6,1450,8700,0.16,1392,10092,Paid,2026-09-30T03:00:00+03:00,Bank Transfer
+SAL-2026-0028,2026-09-19T03:00:00+03:00,Lakeside Constructors,+254 700 000 104,CEM-001,Bamburi Tembo Cement 50kg,Cement,Bamburi Cement,Bag,78,780,60840,0.16,9734.4,70574.4,Paid,2026-09-29T03:00:00+03:00,Cheque
+SAL-2026-0029,2026-09-19T03:00:00+03:00,Wanjiru Interiors,+254 700 000 113,PNT-001,Crown Silk Vinyl Emulsion 20L,Paints & Finishes,Crown Paints,Bucket,7,8500,59500,0.16,9520,69020,Paid,2026-10-02T03:00:00+03:00,Bank Transfer
+SAL-2026-0030,2026-09-19T03:00:00+03:00,Mombasa Road Electricals,+254 700 000 111,ELC-001,Twin & Earth Cable 2.5mm 100m,Electrical,East African Cables,Roll,5,11800,59000,0.16,9440,68440,Paid,2026-09-30T03:00:00+03:00,Cheque
+SAL-2026-0031,2026-09-21T03:00:00+03:00,Mutua Plumbers & Fitters,+254 700 000 110,PLB-005,"HDPE Pipe 1"" 100m Coil",Plumbing,Kenpoly,Coil,3,8500,25500,0.16,4080,29580,Paid,2026-09-30T03:00:00+03:00,Cheque
+SAL-2026-0032,2026-09-21T03:00:00+03:00,Rift Valley Builders,+254 700 000 103,CEM-002,Savannah Cement 50kg,Cement,Savannah Cement,Bag,32,740,23680,0.16,3788.8,27468.8,Paid,2026-09-27T03:00:00+03:00,Bank Transfer
+SAL-2026-0033,2026-09-22T03:00:00+03:00,Walk-in Customer,-,CEM-002,Savannah Cement 50kg,Cement,Savannah Cement,Bag,12,740,8880,0.16,1420.8,10300.8,Paid,2026-09-22T03:00:00+03:00,M-Pesa
+SAL-2026-0034,2026-09-22T03:00:00+03:00,Mombasa Road Electricals,+254 700 000 111,ELC-005,MCB Circuit Breaker 20A,Electrical,Legrand,Piece,14,650,9100,0.16,1456,10556,Paid,2026-09-26T03:00:00+03:00,Bank Transfer
+SAL-2026-0035,2026-09-23T03:00:00+03:00,Walk-in Customer,-,PLB-002,"PVC Pipe 2"" (50mm) 6m",Plumbing,Kenpipe,Piece,2,950,1900,0.16,304,2204,Paid,2026-09-23T03:00:00+03:00,M-Pesa
+SAL-2026-0036,2026-09-24T03:00:00+03:00,Walk-in Customer,-,CEM-001,Bamburi Tembo Cement 50kg,Cement,Bamburi Cement,Bag,14,780,10920,0.16,1747.2,12667.2,Paid,2026-09-24T03:00:00+03:00,M-Pesa
+SAL-2026-0037,2026-09-24T03:00:00+03:00,Mwangi & Sons Contractors,+254 700 000 101,CEM-001,Bamburi Tembo Cement 50kg,Cement,Bamburi Cement,Bag,50,780,39000,0.16,6240,45240,Paid,2026-09-24T03:00:00+03:00,Cheque
+SAL-2026-0038,2026-09-25T03:00:00+03:00,Walk-in Customer,-,SAF-002,Work Gloves,Safety Gear,Generic,Pair,5,180,900,0.16,144,1044,Paid,2026-09-25T03:00:00+03:00,M-Pesa
+SAL-2026-0039,2026-09-25T03:00:00+03:00,Kilimani Finishes Ltd,+254 700 000 114,HRD-003,Padlock 50mm,Tools & Hardware,Yale,Piece,9,650,5850,0.16,936,6786,Paid,2026-10-04T03:00:00+03:00,Bank Transfer
+SAL-2026-0040,2026-09-26T03:00:00+03:00,Karen Homes Ltd,+254 700 000 106,HRD-002,Wheelbarrow Heavy Duty,Tools & Hardware,Generic,Piece,4,5800,23200,0.16,3712,26912,Paid,2026-10-02T03:00:00+03:00,Bank Transfer
+SAL-2026-0041,2026-09-28T03:00:00+03:00,Kilimani Finishes Ltd,+254 700 000 114,HRD-004,"Door Hinge 4"" (pair)",Tools & Hardware,Generic,Pair,15,280,4200,0.16,672,4872,Paid,2026-10-11T03:00:00+03:00,Cheque
+SAL-2026-0042,2026-09-28T03:00:00+03:00,Walk-in Customer,-,ELC-004,LED Bulb 12W,Electrical,Philips,Piece,1,250,250,0.16,40,290,Paid,2026-09-28T03:00:00+03:00,M-Pesa
+SAL-2026-0043,2026-09-28T03:00:00+03:00,Kiprono Developers,+254 700 000 105,SAF-001,Safety Gumboots,Safety Gear,Generic,Pair,7,1100,7700,0.16,1232,8932,Paid,2026-10-10T03:00:00+03:00,M-Pesa
+SAL-2026-0044,2026-09-28T03:00:00+03:00,Akinyi Painters & Decorators,+254 700 000 115,PNT-005,Sika Tile Adhesive 20kg,Paints & Finishes,Sika,Bag,15,1200,18000,0.16,2880,20880,Paid,2026-10-01T03:00:00+03:00,Bank Transfer
+SAL-2026-0045,2026-09-29T03:00:00+03:00,Kamau Construction Ltd,+254 700 000 102,STL-005,BRC Mesh A142 Sheet,Steel & Reinforcement,Devki Steel Mills,Sheet,6,4800,28800,0.16,4608,33408,Paid,2026-09-30T03:00:00+03:00,Bank Transfer
+SAL-2026-0046,2026-09-29T03:00:00+03:00,Walk-in Customer,-,PLB-004,"Brass Tap 1/2""",Plumbing,Generic,Piece,2,650,1300,0.16,208,1508,Paid,2026-09-29T03:00:00+03:00,Cash
+SAL-2026-0047,2026-09-30T03:00:00+03:00,Rift Valley Builders,+254 700 000 103,BLD-002,"Wire Nails 4"" (per kg)",Building Materials,Generic,Kg,29,190,5510,0.16,881.6,6391.6,Paid,2026-10-06T03:00:00+03:00,Bank Transfer
+SAL-2026-0048,2026-09-30T03:00:00+03:00,Mombasa Road Electricals,+254 700 000 111,ELC-002,Twin & Earth Cable 1.5mm 100m,Electrical,East African Cables,Roll,2,7900,15800,0.16,2528,18328,Paid,2026-10-08T03:00:00+03:00,Bank Transfer
+SAL-2026-0049,2026-09-30T03:00:00+03:00,Akinyi Painters & Decorators,+254 700 000 115,HRD-003,Padlock 50mm,Tools & Hardware,Yale,Piece,4,650,2600,0.16,416,3016,Paid,2026-10-03T03:00:00+03:00,Bank Transfer
+SAL-2026-0050,2026-10-01T03:00:00+03:00,Walk-in Customer,-,HRD-003,Padlock 50mm,Tools & Hardware,Yale,Piece,2,650,1300,0.16,208,1508,Paid,2026-10-01T03:00:00+03:00,M-Pesa
+SAL-2026-0051,2026-10-01T03:00:00+03:00,Walk-in Customer,-,PLB-002,"PVC Pipe 2"" (50mm) 6m",Plumbing,Kenpipe,Piece,2,950,1900,0.16,304,2204,Paid,2026-10-01T03:00:00+03:00,M-Pesa
+SAL-2026-0052,2026-10-02T03:00:00+03:00,Kilimani Finishes Ltd,+254 700 000 114,PNT-005,Sika Tile Adhesive 20kg,Paints & Finishes,Sika,Bag,6,1200,7200,0.16,1152,8352,Paid,2026-10-12T03:00:00+03:00,Cheque
+SAL-2026-0053,2026-10-02T03:00:00+03:00,Nyali Plumbing Services,+254 700 000 109,PLB-001,"PVC Pipe 4"" (110mm) 6m",Plumbing,Kenpipe,Piece,24,2400,57600,0.16,9216,66816,Paid,2026-10-15T03:00:00+03:00,Bank Transfer
+SAL-2026-0054,2026-10-02T03:00:00+03:00,Lakeside Constructors,+254 700 000 104,ROF-001,Box Profile Iron Sheet G30 3m,Roofing,Mabati Rolling Mills,Sheet,76,850,64600,0.16,10336,74936,Paid,2026-10-12T03:00:00+03:00,Bank Transfer
+SAL-2026-0055,2026-10-03T03:00:00+03:00,Akinyi Painters & Decorators,+254 700 000 115,HRD-003,Padlock 50mm,Tools & Hardware,Yale,Piece,5,650,3250,0.16,520,3770,Paid,2026-10-11T03:00:00+03:00,Cheque
+SAL-2026-0056,2026-10-03T03:00:00+03:00,Lakeside Constructors,+254 700 000 104,BLD-002,"Wire Nails 4"" (per kg)",Building Materials,Generic,Kg,34,190,6460,0.16,1033.6,7493.6,Paid,2026-10-13T03:00:00+03:00,M-Pesa
+SAL-2026-0057,2026-10-03T03:00:00+03:00,Highland Roofing Co.,+254 700 000 108,ROF-002,Box Profile Iron Sheet G28 3m,Roofing,Mabati Rolling Mills,Sheet,60,1050,63000,0.16,10080,73080,Paid,2026-10-13T03:00:00+03:00,M-Pesa
+SAL-2026-0058,2026-10-03T03:00:00+03:00,Walk-in Customer,-,CEM-001,Bamburi Tembo Cement 50kg,Cement,Bamburi Cement,Bag,12,780,9360,0.16,1497.6,10857.6,Paid,2026-10-03T03:00:00+03:00,M-Pesa
+SAL-2026-0059,2026-10-05T03:00:00+03:00,Wanjiru Interiors,+254 700 000 113,PNT-006,Ceramic Floor Tile 40x40cm,Paints & Finishes,SAJ Ceramics,Sq m,32,1150,36800,0.16,5888,42688,Paid,2026-10-06T03:00:00+03:00,Cheque
+SAL-2026-0060,2026-10-05T03:00:00+03:00,Otieno Power Solutions,+254 700 000 112,ELC-002,Twin & Earth Cable 1.5mm 100m,Electrical,East African Cables,Roll,6,7900,47400,0.16,7584,54984,Paid,2026-10-16T03:00:00+03:00,Bank Transfer
+SAL-2026-0061,2026-10-05T03:00:00+03:00,Mwangi & Sons Contractors,+254 700 000 101,HRD-002,Wheelbarrow Heavy Duty,Tools & Hardware,Generic,Piece,3,5800,17400,0.16,2784,20184,Paid,2026-10-14T03:00:00+03:00,Bank Transfer
+SAL-2026-0062,2026-10-05T03:00:00+03:00,Njoroge Roofing Works,+254 700 000 107,ROF-001,Box Profile Iron Sheet G30 3m,Roofing,Mabati Rolling Mills,Sheet,41,850,34850,0.16,5576,40426,Paid,2026-10-07T03:00:00+03:00,M-Pesa
+SAL-2026-0063,2026-10-06T03:00:00+03:00,Kiprono Developers,+254 700 000 105,BLD-001,"Machine-Cut Building Block 6""",Building Materials,Local Quarry,Piece,955,70,66850,0.16,10696,77546,Paid,2026-10-15T03:00:00+03:00,Bank Transfer
+SAL-2026-0064,2026-10-06T03:00:00+03:00,Walk-in Customer,-,PNT-005,Sika Tile Adhesive 20kg,Paints & Finishes,Sika,Bag,3,1200,3600,0.16,576,4176,Paid,2026-10-06T03:00:00+03:00,M-Pesa
+SAL-2026-0065,2026-10-06T03:00:00+03:00,Walk-in Customer,-,ROF-003,"Roofing Nails 3"" (per kg)",Roofing,Generic,Kg,4,240,960,0.16,153.6,1113.6,Paid,2026-10-06T03:00:00+03:00,Cash
+SAL-2026-0066,2026-10-06T03:00:00+03:00,Mombasa Road Electricals,+254 700 000 111,ELC-005,MCB Circuit Breaker 20A,Electrical,Legrand,Piece,19,650,12350,0.16,1976,14326,Paid,2026-10-12T03:00:00+03:00,Cheque
+SAL-2026-0067,2026-10-06T03:00:00+03:00,Akinyi Painters & Decorators,+254 700 000 115,PNT-006,Ceramic Floor Tile 40x40cm,Paints & Finishes,SAJ Ceramics,Sq m,76,1150,87400,0.16,13984,101384,Paid,2026-10-06T03:00:00+03:00,Bank Transfer
+SAL-2026-0068,2026-10-07T03:00:00+03:00,Rift Valley Builders,+254 700 000 103,STL-001,Y12 Steel Bar 12m,Steel & Reinforcement,Devki Steel Mills,Piece,24,1450,34800,0.16,5568,40368,Paid,2026-10-15T03:00:00+03:00,Bank Transfer
+SAL-2026-0069,2026-10-07T03:00:00+03:00,Kamau Construction Ltd,+254 700 000 102,BLD-002,"Wire Nails 4"" (per kg)",Building Materials,Generic,Kg,18,190,3420,0.16,547.2,3967.2,Paid,2026-10-15T03:00:00+03:00,Bank Transfer
+SAL-2026-0070,2026-10-07T03:00:00+03:00,Lakeside Constructors,+254 700 000 104,STL-001,Y12 Steel Bar 12m,Steel & Reinforcement,Devki Steel Mills,Piece,51,1450,73950,0.16,11832,85782,Paid,2026-10-14T03:00:00+03:00,Bank Transfer
+SAL-2026-0071,2026-10-08T03:00:00+03:00,Otieno Power Solutions,+254 700 000 112,ELC-004,LED Bulb 12W,Electrical,Philips,Piece,22,250,5500,0.16,880,6380,Paid,2026-10-17T03:00:00+03:00,Cheque
+SAL-2026-0072,2026-10-08T03:00:00+03:00,Karen Homes Ltd,+254 700 000 106,ROF-004,Timber 2x4 Cypress 12ft,Roofing,Local Sawmill,Piece,25,650,16250,0.16,2600,18850,Paid,2026-10-16T03:00:00+03:00,Bank Transfer
+SAL-2026-0073,2026-10-09T03:00:00+03:00,Mombasa Road Electricals,+254 700 000 111,ELC-005,MCB Circuit Breaker 20A,Electrical,Legrand,Piece,15,650,9750,0.16,1560,11310,Paid,2026-10-10T03:00:00+03:00,Bank Transfer
+SAL-2026-0074,2026-10-09T03:00:00+03:00,Kamau Construction Ltd,+254 700 000 102,ROF-003,"Roofing Nails 3"" (per kg)",Roofing,Generic,Kg,13,240,3120,0.16,499.2,3619.2,Paid,2026-10-21T03:00:00+03:00,Bank Transfer
+SAL-2026-0075,2026-10-09T03:00:00+03:00,Walk-in Customer,-,ELC-004,LED Bulb 12W,Electrical,Philips,Piece,5,250,1250,0.16,200,1450,Paid,2026-10-09T03:00:00+03:00,M-Pesa
+SAL-2026-0076,2026-10-09T03:00:00+03:00,Akinyi Painters & Decorators,+254 700 000 115,HRD-004,"Door Hinge 4"" (pair)",Tools & Hardware,Generic,Pair,16,280,4480,0.16,716.8,5196.8,Paid,2026-10-11T03:00:00+03:00,Bank Transfer
+SAL-2026-0077,2026-10-09T03:00:00+03:00,Lakeside Constructors,+254 700 000 104,SAF-002,Work Gloves,Safety Gear,Generic,Pair,29,180,5220,0.16,835.2,6055.2,Paid,2026-10-21T03:00:00+03:00,Cheque
+SAL-2026-0078,2026-10-10T03:00:00+03:00,Wanjiru Interiors,+254 700 000 113,HRD-002,Wheelbarrow Heavy Duty,Tools & Hardware,Generic,Piece,2,5800,11600,0.16,1856,13456,Paid,2026-10-17T03:00:00+03:00,Bank Transfer
+SAL-2026-0079,2026-10-10T03:00:00+03:00,Karen Homes Ltd,+254 700 000 106,CEM-002,Savannah Cement 50kg,Cement,Savannah Cement,Bag,54,740,39960,0.16,6393.6,46353.6,Paid,2026-10-23T03:00:00+03:00,M-Pesa
+SAL-2026-0080,2026-10-10T03:00:00+03:00,Walk-in Customer,-,HRD-003,Padlock 50mm,Tools & Hardware,Yale,Piece,2,650,1300,0.16,208,1508,Paid,2026-10-10T03:00:00+03:00,Cash
+SAL-2026-0081,2026-10-10T03:00:00+03:00,Rift Valley Builders,+254 700 000 103,HRD-001,Claw Hammer 16oz,Tools & Hardware,Stanley,Piece,4,750,3000,0.16,480,3480,Paid,2026-10-14T03:00:00+03:00,M-Pesa
+SAL-2026-0082,2026-10-12T03:00:00+03:00,Njoroge Roofing Works,+254 700 000 107,ROF-003,"Roofing Nails 3"" (per kg)",Roofing,Generic,Kg,26,240,6240,0.16,998.4,7238.4,Pending,-,-
+SAL-2026-0083,2026-10-12T03:00:00+03:00,Akinyi Painters & Decorators,+254 700 000 115,HRD-005,Mortise Door Lock Set,Tools & Hardware,Yale,Set,10,1450,14500,0.16,2320,16820,Paid,2026-10-15T03:00:00+03:00,Cheque
+SAL-2026-0084,2026-10-13T03:00:00+03:00,Walk-in Customer,-,ELC-003,13A Double Socket Outlet,Electrical,Legrand,Piece,2,650,1300,0.16,208,1508,Paid,2026-10-13T03:00:00+03:00,Cash
+SAL-2026-0085,2026-10-13T03:00:00+03:00,Walk-in Customer,-,PNT-004,"Paint Roller 9"" with Tray",Paints & Finishes,Generic,Set,1,450,450,0.16,72,522,Paid,2026-10-13T03:00:00+03:00,M-Pesa
+SAL-2026-0086,2026-10-14T03:00:00+03:00,Mutua Plumbers & Fitters,+254 700 000 110,PLB-004,"Brass Tap 1/2""",Plumbing,Generic,Piece,9,650,5850,0.16,936,6786,Pending,-,-
+SAL-2026-0087,2026-10-14T03:00:00+03:00,Mombasa Road Electricals,+254 700 000 111,ELC-003,13A Double Socket Outlet,Electrical,Legrand,Piece,15,650,9750,0.16,1560,11310,Paid,2026-10-14T03:00:00+03:00,M-Pesa
+SAL-2026-0088,2026-10-14T03:00:00+03:00,Mutua Plumbers & Fitters,+254 700 000 110,PLB-001,"PVC Pipe 4"" (110mm) 6m",Plumbing,Kenpipe,Piece,20,2400,48000,0.16,7680,55680,Pending,-,-
+SAL-2026-0089,2026-10-15T03:00:00+03:00,Kamau Construction Ltd,+254 700 000 102,STL-003,Y8 Steel Bar 12m,Steel & Reinforcement,Devki Steel Mills,Piece,38,620,23560,0.16,3769.6,27329.6,Pending,-,-
+SAL-2026-0090,2026-10-15T03:00:00+03:00,Otieno Power Solutions,+254 700 000 112,ELC-001,Twin & Earth Cable 2.5mm 100m,Electrical,East African Cables,Roll,5,11800,59000,0.16,9440,68440,Paid,2026-10-21T03:00:00+03:00,Bank Transfer
+SAL-2026-0091,2026-10-16T03:00:00+03:00,Walk-in Customer,-,PNT-004,"Paint Roller 9"" with Tray",Paints & Finishes,Generic,Set,2,450,900,0.16,144,1044,Paid,2026-10-16T03:00:00+03:00,Cash
+SAL-2026-0092,2026-10-16T03:00:00+03:00,Walk-in Customer,-,HRD-001,Claw Hammer 16oz,Tools & Hardware,Stanley,Piece,1,750,750,0.16,120,870,Paid,2026-10-16T03:00:00+03:00,M-Pesa
+SAL-2026-0093,2026-10-17T03:00:00+03:00,Karen Homes Ltd,+254 700 000 106,BLD-002,"Wire Nails 4"" (per kg)",Building Materials,Generic,Kg,25,190,4750,0.16,760,5510,Paid,2026-10-26T03:00:00+03:00,M-Pesa
+SAL-2026-0094,2026-10-17T03:00:00+03:00,Kilimani Finishes Ltd,+254 700 000 114,HRD-001,Claw Hammer 16oz,Tools & Hardware,Stanley,Piece,7,750,5250,0.16,840,6090,Pending,-,-
+SAL-2026-0095,2026-10-19T03:00:00+03:00,Karen Homes Ltd,+254 700 000 106,BLD-002,"Wire Nails 4"" (per kg)",Building Materials,Generic,Kg,17,190,3230,0.16,516.8,3746.8,Pending,-,-
+SAL-2026-0096,2026-10-19T03:00:00+03:00,Njoroge Roofing Works,+254 700 000 107,ROF-002,Box Profile Iron Sheet G28 3m,Roofing,Mabati Rolling Mills,Sheet,33,1050,34650,0.16,5544,40194,Pending,-,-
+SAL-2026-0097,2026-10-19T03:00:00+03:00,Kamau Construction Ltd,+254 700 000 102,SAF-002,Work Gloves,Safety Gear,Generic,Pair,20,180,3600,0.16,576,4176,Pending,-,-
+SAL-2026-0098,2026-10-20T03:00:00+03:00,Nyali Plumbing Services,+254 700 000 109,PLB-004,"Brass Tap 1/2""",Plumbing,Generic,Piece,7,650,4550,0.16,728,5278,Pending,-,-
+SAL-2026-0099,2026-10-21T03:00:00+03:00,Rift Valley Builders,+254 700 000 103,CEM-003,Rhino Cement 42.5N 50kg,Cement,Rhino Cement,Bag,42,730,30660,0.16,4905.6,35565.6,Pending,-,-
+SAL-2026-0100,2026-10-21T03:00:00+03:00,Walk-in Customer,-,HRD-001,Claw Hammer 16oz,Tools & Hardware,Stanley,Piece,2,750,1500,0.16,240,1740,Paid,2026-10-21T03:00:00+03:00,M-Pesa
+SAL-2026-0101,2026-10-21T03:00:00+03:00,Walk-in Customer,-,HRD-005,Mortise Door Lock Set,Tools & Hardware,Yale,Set,1,1450,1450,0.16,232,1682,Paid,2026-10-21T03:00:00+03:00,Cash
+SAL-2026-0102,2026-10-21T03:00:00+03:00,Lakeside Constructors,+254 700 000 104,ROF-002,Box Profile Iron Sheet G28 3m,Roofing,Mabati Rolling Mills,Sheet,74,1050,77700,0.16,12432,90132,Pending,-,-
+SAL-2026-0103,2026-10-21T03:00:00+03:00,Wanjiru Interiors,+254 700 000 113,HRD-002,Wheelbarrow Heavy Duty,Tools & Hardware,Generic,Piece,3,5800,17400,0.16,2784,20184,Paid,2026-10-26T03:00:00+03:00,M-Pesa
+SAL-2026-0104,2026-10-21T03:00:00+03:00,Otieno Power Solutions,+254 700 000 112,ELC-002,Twin & Earth Cable 1.5mm 100m,Electrical,East African Cables,Roll,5,7900,39500,0.16,6320,45820,Paid,2026-10-29T03:00:00+03:00,Bank Transfer
+SAL-2026-0105,2026-10-22T03:00:00+03:00,Rift Valley Builders,+254 700 000 103,SAF-001,Safety Gumboots,Safety Gear,Generic,Pair,15,1100,16500,0.16,2640,19140,Pending,-,-
+SAL-2026-0106,2026-10-22T03:00:00+03:00,Kiprono Developers,+254 700 000 105,BLD-001,"Machine-Cut Building Block 6""",Building Materials,Local Quarry,Piece,342,70,23940,0.16,3830.4,27770.4,Paid,2026-10-26T03:00:00+03:00,Cheque
+SAL-2026-0107,2026-10-23T03:00:00+03:00,Walk-in Customer,-,ROF-004,Timber 2x4 Cypress 12ft,Roofing,Local Sawmill,Piece,3,650,1950,0.16,312,2262,Paid,2026-10-23T03:00:00+03:00,M-Pesa
+SAL-2026-0108,2026-10-24T03:00:00+03:00,Walk-in Customer,-,ROF-004,Timber 2x4 Cypress 12ft,Roofing,Local Sawmill,Piece,11,650,7150,0.16,1144,8294,Paid,2026-10-24T03:00:00+03:00,Cash
+SAL-2026-0109,2026-10-24T03:00:00+03:00,Mutua Plumbers & Fitters,+254 700 000 110,PLB-005,"HDPE Pipe 1"" 100m Coil",Plumbing,Kenpoly,Coil,1,8500,8500,0.16,1360,9860,Pending,-,-
+SAL-2026-0110,2026-10-26T03:00:00+03:00,Nyali Plumbing Services,+254 700 000 109,PLB-004,"Brass Tap 1/2""",Plumbing,Generic,Piece,12,650,7800,0.16,1248,9048,Pending,-,-
+SAL-2026-0111,2026-10-26T03:00:00+03:00,Akinyi Painters & Decorators,+254 700 000 115,HRD-002,Wheelbarrow Heavy Duty,Tools & Hardware,Generic,Piece,1,5800,5800,0.16,928,6728,Pending,-,-
+SAL-2026-0112,2026-10-26T03:00:00+03:00,Walk-in Customer,-,STL-004,Binding Wire (per kg),Steel & Reinforcement,Generic,Kg,6,220,1320,0.16,211.2,1531.2,Paid,2026-10-26T03:00:00+03:00,M-Pesa
+SAL-2026-0113,2026-10-26T03:00:00+03:00,Otieno Power Solutions,+254 700 000 112,ELC-003,13A Double Socket Outlet,Electrical,Legrand,Piece,29,650,18850,0.16,3016,21866,Pending,-,-
+SAL-2026-0114,2026-10-27T03:00:00+03:00,Walk-in Customer,-,CEM-003,Rhino Cement 42.5N 50kg,Cement,Rhino Cement,Bag,14,730,10220,0.16,1635.2,11855.2,Paid,2026-10-27T03:00:00+03:00,M-Pesa
+SAL-2026-0115,2026-10-28T03:00:00+03:00,Kilimani Finishes Ltd,+254 700 000 114,PNT-002,Basco Emulsion Paint 4L,Paints & Finishes,Basco Paints,Tin,5,2300,11500,0.16,1840,13340,Pending,-,-
+SAL-2026-0116,2026-10-28T03:00:00+03:00,Lakeside Constructors,+254 700 000 104,BLD-001,"Machine-Cut Building Block 6""",Building Materials,Local Quarry,Piece,748,70,52360,0.16,8377.6,60737.6,Pending,-,-
+SAL-2026-0117,2026-10-28T03:00:00+03:00,Njoroge Roofing Works,+254 700 000 107,ROF-003,"Roofing Nails 3"" (per kg)",Roofing,Generic,Kg,27,240,6480,0.16,1036.8,7516.8,Pending,-,-
+SAL-2026-0118,2026-10-29T03:00:00+03:00,Mombasa Road Electricals,+254 700 000 111,ELC-005,MCB Circuit Breaker 20A,Electrical,Legrand,Piece,19,650,12350,0.16,1976,14326,Pending,-,-
+SAL-2026-0119,2026-10-29T03:00:00+03:00,Lakeside Constructors,+254 700 000 104,SAF-001,Safety Gumboots,Safety Gear,Generic,Pair,4,1100,4400,0.16,704,5104,Pending,-,-
+SAL-2026-0120,2026-10-29T03:00:00+03:00,Walk-in Customer,-,SAF-002,Work Gloves,Safety Gear,Generic,Pair,5,180,900,0.16,144,1044,Paid,2026-10-29T03:00:00+03:00,M-Pesa
+,,,,,,,,,,Total:,2485540,,397686.4,2883226.4

@@ -1,0 +1,37 @@
+SKU,Product Name,Category,Unit,Opening Stock,Units Sold,Closing Stock,Reorder Level,Stock Status,"Sales Revenue (KES, excl. VAT)"
+BLD-001,"Machine-Cut Building Block 6""",Building Materials,Piece,3650,2045,1605,730,OK,143150
+BLD-002,"Wire Nails 4"" (per kg)",Building Materials,Kg,370,126,244,74,OK,23940
+CEM-001,Bamburi Tembo Cement 50kg,Cement,Bag,1120,375,745,224,OK,292500
+CEM-002,Savannah Cement 50kg,Cement,Bag,280,177,103,56,OK,130980
+CEM-003,Rhino Cement 42.5N 50kg,Cement,Bag,430,145,285,86,OK,105850
+ELC-001,Twin & Earth Cable 2.5mm 100m,Electrical,Roll,25,10,15,5,OK,118000
+ELC-002,Twin & Earth Cable 1.5mm 100m,Electrical,Roll,40,13,27,8,OK,102700
+ELC-003,13A Double Socket Outlet,Electrical,Piece,52,46,6,10,Reorder,29900
+ELC-004,LED Bulb 12W,Electrical,Piece,120,61,59,24,OK,15250
+ELC-005,MCB Circuit Breaker 20A,Electrical,Piece,150,69,81,30,OK,44850
+HRD-001,Claw Hammer 16oz,Tools & Hardware,Piece,18,16,2,4,Reorder,12000
+HRD-002,Wheelbarrow Heavy Duty,Tools & Hardware,Piece,15,13,2,3,Reorder,75400
+HRD-003,Padlock 50mm,Tools & Hardware,Piece,90,31,59,18,OK,20150
+HRD-004,"Door Hinge 4"" (pair)",Tools & Hardware,Pair,62,54,8,12,Reorder,15120
+HRD-005,Mortise Door Lock Set,Tools & Hardware,Set,60,25,35,12,OK,36250
+PLB-001,"PVC Pipe 4"" (110mm) 6m",Plumbing,Piece,110,60,50,22,OK,144000
+PLB-002,"PVC Pipe 2"" (50mm) 6m",Plumbing,Piece,65,24,41,13,OK,22800
+PLB-004,"Brass Tap 1/2""",Plumbing,Piece,75,32,43,15,OK,20800
+PLB-005,"HDPE Pipe 1"" 100m Coil",Plumbing,Coil,18,6,12,4,OK,51000
+PNT-001,Crown Silk Vinyl Emulsion 20L,Paints & Finishes,Bucket,16,7,9,3,OK,59500
+PNT-002,Basco Emulsion Paint 4L,Paints & Finishes,Tin,7,5,2,2,Reorder,11500
+PNT-004,"Paint Roller 9"" with Tray",Paints & Finishes,Set,60,24,36,12,OK,10800
+PNT-005,Sika Tile Adhesive 20kg,Paints & Finishes,Bag,70,24,46,14,OK,28800
+PNT-006,Ceramic Floor Tile 40x40cm,Paints & Finishes,Sq m,280,108,172,56,OK,124200
+ROF-001,Box Profile Iron Sheet G30 3m,Roofing,Sheet,840,418,422,168,OK,355300
+ROF-002,Box Profile Iron Sheet G28 3m,Roofing,Sheet,320,167,153,64,OK,175350
+ROF-003,"Roofing Nails 3"" (per kg)",Roofing,Kg,180,70,110,36,OK,16800
+ROF-004,Timber 2x4 Cypress 12ft,Roofing,Piece,140,63,77,28,OK,40950
+SAF-001,Safety Gumboots,Safety Gear,Pair,55,26,29,11,OK,28600
+SAF-002,Work Gloves,Safety Gear,Pair,170,59,111,34,OK,10620
+STL-001,Y12 Steel Bar 12m,Steel & Reinforcement,Piece,180,75,105,36,OK,108750
+STL-002,Y10 Steel Bar 12m,Steel & Reinforcement,Piece,66,59,7,13,Reorder,56050
+STL-003,Y8 Steel Bar 12m,Steel & Reinforcement,Piece,65,38,27,13,OK,23560
+STL-004,Binding Wire (per kg),Steel & Reinforcement,Kg,12,6,6,2,OK,1320
+STL-005,BRC Mesh A142 Sheet,Steel & Reinforcement,Sheet,10,6,4,2,OK,28800
+,,,,,,,,Total:,2485540
