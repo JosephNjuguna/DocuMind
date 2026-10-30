@@ -41,7 +41,7 @@ a dashboard user can view all their data analysez and arranged in accordance to 
 ![DocuMind](./demoimages/dashboard.png)
 
 ## Document Validation for mistrust and misinformation
-![DocuMind](./demoimages/dashboard.png)
+![DocuMind](./demoimages/docucheck.png)
 
 ## 4. Technology Stack
 This project uses
