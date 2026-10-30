@@ -1,0 +1,403 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>DocuMind Local — Enterprise Document Intelligence</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js" defer></script>
+    <script src="app.js" defer></script>
+</head>
+
+<body>
+    <header class="top">
+        <div class="brand">
+            <div class="mark">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                    <polyline points="14 2 14 8 20 8"></polyline>
+                    <line x1="16" y1="13" x2="8" y2="13"></line>
+                    <line x1="16" y1="17" x2="8" y2="17"></line>
+                    <polyline points="10 9 9 9 8 9"></polyline>
+                </svg>
+            </div>
+            <div class="brand-text">
+                <span class="brand-name">DocuMind</span>
+                <span class="brand-tag">Local AI</span>
+            </div>
+        </div>
+
+        <nav class="nav-tabs">
+            <button class="tab" data-view="documents">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                    <polyline points="14 2 14 8 20 8"></polyline>
+                    <path d="M9 15l2 2 4-4"></path>
+                </svg>
+                <span>Documents</span>
+            </button>
+            <button class="tab" data-view="dashboard">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <rect x="3" y="3" width="7" height="7"></rect>
+                    <rect x="14" y="3" width="7" height="7"></rect>
+                    <rect x="14" y="14" width="7" height="7"></rect>
+                    <rect x="3" y="14" width="7" height="7"></rect>
+                </svg>
+                <span>Dashboard</span>
+            </button>
+            <button class="tab" data-view="risk">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                    <path d="M9 12l2 2 4-4"></path>
+                </svg>
+                <span>Risk Check</span>
+            </button>
+        </nav>
+
+        <div class="status-badge">
+            <span class="pill-dot"></span>
+            <span class="pill" id="health">Connecting…</span>
+        </div>
+    </header>
+
+    <main>
+        <!-- Documents View: upload + review in one tab -->
+        <section id="view-documents" hidden>
+            <div class="view-header">
+                <div>
+                    <h1>Document Intake & Review</h1>
+                    <p class="subtitle">Upload invoices, LPOs, or receipts for local AI extraction, then verify and save
+                        them to the ledger.</p>
+                </div>
+            </div>
+
+            <label class="drop-zone" id="drop">
+                <input type="file" id="file" multiple accept=".pdf,.png,.jpg,.jpeg,.webp,.xlsx,.csv">
+                <div class="drop-icon">
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M4 14.899A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 2.5 8.242"></path>
+                        <path d="M12 12v9"></path>
+                        <path d="m16 16-4-4-4 4"></path>
+                    </svg>
+                </div>
+                <div class="drop-title">Drop financial documents here</div>
+                <div class="drop-subtitle">or click to browse from your device</div>
+                <div class="drop-tags">
+                    <span class="file-tag">PDF</span>
+                    <span class="file-tag">PNG / JPG</span>
+                    <span class="file-tag">Excel (.xlsx)</span>
+                    <span class="file-tag">CSV</span>
+                </div>
+            </label>
+
+            <div class="review-layout">
+                <aside class="sidebar-card">
+                    <div class="sidebar-header">
+                        <div class="split section-bar">
+                            <h2>Uploaded Documents</h2>
+                            <button class="btn sec" id="saveReady" hidden>Save all ready</button>
+                        </div>
+                    </div>
+                    <ul class="list" id="reviewList"></ul>
+                </aside>
+
+                <div class="card preview-card" id="preview">
+                    <div class="empty-state">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1.5">
+                            <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path>
+                            <polyline points="13 2 13 9 20 9"></polyline>
+                        </svg>
+                        <p>Select a document from the queue to review.</p>
+                    </div>
+                </div>
+
+                <div class="card form-card">
+                    <p id="state" class="muted-state" hidden></p>
+                    <button class="btn sec" id="retry" hidden>Read again</button>
+
+                    <form id="form" hidden>
+                        <div class="form-header">
+                            <h2>Extraction Review</h2>
+                            <span class="badge-info">Verify & Confirm</span>
+                        </div>
+
+                        <div class="form-grid">
+                            <label class="field">
+                                <span>Document Type</span>
+                                <select data-f="document_type">
+                                    <option value="invoice">Invoice</option>
+                                    <option value="lpo">LPO</option>
+                                    <option value="receipt">Receipt</option>
+                                    <option value="quote">Quote</option>
+                                    <option value="other">Other</option>
+                                </select>
+                                <span class="msg"></span>
+                            </label>
+
+                            <label class="field">
+                                <span>Document Number</span>
+                                <input data-f="document_number" placeholder="INV-001">
+                                <span class="msg"></span>
+                            </label>
+
+                            <label class="field col-span-2">
+                                <span>Customer / Vendor Name</span>
+                                <input data-f="customer_name" placeholder="Acme Inc.">
+                                <span class="msg"></span>
+                            </label>
+
+                            <label class="field">
+                                <span>Issue Date</span>
+                                <input type="date" data-f="issue_date">
+                                <span class="msg"></span>
+                            </label>
+
+                            <label class="field">
+                                <span>Due Date</span>
+                                <input type="date" data-f="due_date">
+                                <span class="msg"></span>
+                            </label>
+
+                            <label class="field col-span-2">
+                                <span>Payment Status</span>
+                                <select data-f="payment_status">
+                                    <option value="pending">Pending</option>
+                                    <option value="paid">Paid</option>
+                                </select>
+                                <span class="msg"></span>
+                            </label>
+                        </div>
+
+                        <div class="line-items-wrapper">
+                            <div class="table-header">
+                                <span>Line Items</span>
+                                <button type="button" class="btn text-btn" id="addLine">+ Add Line</button>
+                            </div>
+                            <table class="lines">
+                                <thead>
+                                    <tr>
+                                        <th>Description</th>
+                                        <th width="70">Qty</th>
+                                        <th width="110">Unit Price</th>
+                                        <th width="110">Amount</th>
+                                        <th width="40"></th>
+                                    </tr>
+                                </thead>
+                                <tbody id="lines"></tbody>
+                            </table>
+                            <p class="msg" id="lineMsg"></p>
+                        </div>
+
+                        <div class="totals-grid">
+                            <label class="field">
+                                <span>Subtotal</span>
+                                <input type="number" step="any" data-f="subtotal">
+                                <span class="msg"></span>
+                            </label>
+                            <label class="field">
+                                <span>VAT / Tax</span>
+                                <input type="number" step="any" data-f="vat_amount">
+                                <span class="msg"></span>
+                            </label>
+                            <label class="field highlight-field">
+                                <span>Total Amount</span>
+                                <input type="number" step="any" data-f="total">
+                                <span class="msg"></span>
+                            </label>
+                        </div>
+
+                        <div class="form-actions">
+                            <button class="btn primary" type="submit">Save to Ledger</button>
+                            <button class="btn sec" type="button" id="discard">Discard Document</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- Risk Check View -->
+        <section id="view-risk" hidden>
+            <div class="view-header">
+                <div>
+                    <h1>Document Risk Check</h1>
+                    <p class="subtitle">Paste or upload a message, contract, memo or loan paper. The local AI checks for
+                        scams, phishing and whether it is good for your business.</p>
+                </div>
+            </div>
+
+            <div class="rk-intake">
+                <div class="card">
+                    <h2>New check</h2>
+                    <textarea id="riskText" class="rk-text" aria-label="Paste document text"
+                        placeholder="Paste an email, SMS, contract clause or terms and conditions here…"></textarea>
+                    <div class="rk-chips" id="riskChecks" role="group" aria-label="What to check">
+                        <label class="rk-chip"><input type="checkbox" value="scam" checked><span>Scam</span></label>
+                        <label class="rk-chip"><input type="checkbox" value="phishing"
+                                checked><span>Phishing</span></label>
+                        <label class="rk-chip"><input type="checkbox" value="business_fit" checked><span>Business
+                                fit</span></label>
+                        <label class="rk-chip"><input type="checkbox" value="hidden_costs" checked><span>Hidden
+                                costs</span></label>
+                        <label class="rk-chip"><input type="checkbox" value="legal"><span>Legal red flags</span></label>
+                    </div>
+                    <button type="button" class="btn primary" id="riskRun">Analyse document</button>
+                </div>
+
+                <label class="drop-zone rk-drop" id="riskDrop">
+                    <input type="file" id="riskFile" accept=".pdf,.docx,.txt,.eml,.png,.jpg,.jpeg,.webp">
+                    <div class="drop-title">…or drop a file</div>
+                    <div class="drop-subtitle" id="riskFileName">PDF, DOCX, TXT, EML or image</div>
+                    <div class="drop-tags">
+                        <span class="file-tag">Email</span><span class="file-tag">Contract</span><span
+                            class="file-tag">T&amp;Cs</span><span class="file-tag">Memo</span><span
+                            class="file-tag">Loan</span>
+                    </div>
+                </label>
+            </div>
+
+            <div class="rk-layout">
+                <aside class="sidebar-card">
+                    <div class="sidebar-header">
+                        <h2>Checked documents</h2>
+                    </div>
+                    <ul class="list" id="riskList"></ul>
+                </aside>
+                <div class="card" id="riskDetail">
+                    <div class="empty-state">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1.5">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                            <path d="M9 12l2 2 4-4"></path>
+                        </svg>
+                        <p>Run a check or select one from the list.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Dashboard View -->
+        <section id="view-dashboard" hidden>
+            <div class="view-header">
+                <div>
+                    <h1>Executive Financial Overview</h1>
+                    <p class="subtitle">Aggregated revenue performance, active collections, and cash flow trends.</p>
+                </div>
+            </div>
+
+            <!-- KPI Grid: Includes Total Revenue Across ALL Months -->
+            <div class="kpis">
+                <div class="kpi-card accent-emerald">
+                    <div class="kpi-top">
+                        <span class="kpi-title">Total Revenue (All Time)</span>
+                        <div class="kpi-icon">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+                            </svg>
+                        </div>
+                    </div>
+                    <strong id="kTotalRev" class="kpi-value">-</strong>
+                    <span class="kpi-meta">All-time processed ledger value</span>
+                </div>
+
+                <div class="kpi-card">
+                    <div class="kpi-top">
+                        <span class="kpi-title">Current Month Revenue</span>
+                        <div class="kpi-icon">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                                <line x1="16" y1="2" x2="16" y2="6"></line>
+                                <line x1="8" y1="2" x2="8" y2="6"></line>
+                                <line x1="3" y1="10" x2="21" y2="10"></line>
+                            </svg>
+                        </div>
+                    </div>
+                    <strong id="kRev" class="kpi-value">-</strong>
+                    <span class="kpi-meta" id="kRevLabel">Latest monthly run rate</span>
+                </div>
+
+                <div class="kpi-card">
+                    <div class="kpi-top">
+                        <span class="kpi-title">Processed Documents</span>
+                        <div class="kpi-icon">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                                <polyline points="14 2 14 8 20 8"></polyline>
+                            </svg>
+                        </div>
+                    </div>
+                    <strong id="kDocs" class="kpi-value">-</strong>
+                    <span class="kpi-meta">Total invoices & receipts stored</span>
+                </div>
+
+                <div class="kpi-card accent-rose">
+                    <div class="kpi-top">
+                        <span class="kpi-title">Outstanding Receivables</span>
+                        <div class="kpi-icon">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <polyline points="12 6 12 12 16 14"></polyline>
+                            </svg>
+                        </div>
+                    </div>
+                    <strong id="kOut" class="kpi-value text-rose">-</strong>
+                    <span class="kpi-meta" id="kOutN">0 unpaid invoices</span>
+                </div>
+            </div>
+
+            <!-- Dashboard Grid -->
+            <div class="grid2">
+                <div class="card chart-card">
+                    <div class="card-header">
+                        <div>
+                            <h2>Monthly Revenue Trajectory</h2>
+                            <p class="card-subtitle">Aggregated revenue performance over the last 6 months</p>
+                        </div>
+                    </div>
+                    <div class="chart-container">
+                        <canvas id="chart"></canvas>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <h2>Cash Flow Alerts</h2>
+                        <span class="pill-mini">Action Needed</span>
+                    </div>
+                    <ul class="list alert-list" id="alerts"></ul>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <h2>Top Accounts by Billing</h2>
+                    </div>
+                    <ul class="list bar-list" id="customers"></ul>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <h2>Fast-Moving Line Items</h2>
+                    </div>
+                    <ul class="list line-list" id="products"></ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div id="toast" role="status"></div>
+</body>
+
+</html>
