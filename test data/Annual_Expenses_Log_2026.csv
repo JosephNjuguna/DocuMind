@@ -1,0 +1,37 @@
+Txn ID,Date,Category,Item / Description,Vendor / Store,Qty,Unit Price ($),Total Amount ($),Payment Method
+TXN-2026-019,2026-01-01,Travel & Transport,Car Rental Fuel,WeWork,2.0,280.41,,Bank Wire
+TXN-2026-026,2026-01-27,Food & Catering,Snack Bar Stocking,Amazon Business,1.0,237.02,,Apple Pay
+TXN-2026-033,2026-02-10,Travel & Transport,Hotel Accommodation,OfficeDepot,6.0,90.99,,Credit Card
+TXN-2026-018,2026-02-19,Software & Cloud,JetBrains IDE License,OfficeDepot,8.0,413.67,,M-Pesa
+TXN-2026-003,2026-02-26,Food & Catering,Team Coffee & Beans,City Metro Pass,1.0,369.42,,Credit Card
+TXN-2026-008,2026-03-01,Travel & Transport,Car Rental Fuel,Apple Store,8.0,188.19,,Apple Pay
+TXN-2026-001,2026-03-02,Food & Catering,Espresso Machine Maintenance,WeWork,2.0,399.59,,Credit Card
+TXN-2026-010,2026-03-08,Office Supplies,USB-C Cables,TechMart,10.0,201.79,,Bank Wire
+TXN-2026-024,2026-03-11,Hardware & Electronics,RAM Upgrades,WeWork,7.0,184.83,,Bank Wire
+TXN-2026-021,2026-03-21,Office Supplies,Mechanical Keyboards,Apple Store,10.0,349.74,,Credit Card
+TXN-2026-020,2026-05-07,Office Supplies,USB-C Cables,Amazon Business,9.0,431.02,,Apple Pay
+TXN-2026-006,2026-05-28,Travel & Transport,Flight to Tech Conf,Apple Store,5.0,25.76,,Apple Pay
+TXN-2026-007,2026-07-06,Travel & Transport,Train Tickets,TechMart,7.0,402.57,,Credit Card
+TXN-2026-005,2026-07-12,Utilities & Services,SaaS Tools,TechMart,6.0,54,,Apple Pay
+TXN-2026-009,2026-08-04,Hardware & Electronics,Power Banks,WeWork,9.0,365.25,,Bank Wire
+TXN-2026-017,2026-08-06,Utilities & Services,Coworking Space Pass,TechMart,5.0,407.92,,Apple Pay
+TXN-2026-013,2026-08-10,Software & Cloud,Figma Subscription,Uber,1.0,29.4,,Credit Card
+TXN-2026-035,2026-08-16,Office Supplies,USB-C Cables,WeWork,5.0,370.03,,Bank Wire
+TXN-2026-031,2026-08-20,Utilities & Services,Office Security System,City Metro Pass,1.0,71.18,,Bank Wire
+TXN-2026-016,2026-08-23,Office Supplies,Notebooks & Pens,WeWork,5.0,212.02,,Bank Wire
+TXN-2026-011,2026-09-04,Software & Cloud,AWS Cloud Hosting,City Metro Pass,8.0,325.82,,Apple Pay
+TXN-2026-034,2026-09-12,Travel & Transport,Hotel Accommodation,City Metro Pass,3.0,156.72,,Credit Card
+TXN-2026-015,2026-09-19,Travel & Transport,Train Tickets,WeWork,1.0,376.66,,Apple Pay
+TXN-2026-032,2026-09-22,Software & Cloud,GitHub Enterprise,OfficeDepot,7.0,133.67,,Credit Card
+TXN-2026-025,2026-09-24,Software & Cloud,JetBrains IDE License,Amazon Business,2.0,184.37,,M-Pesa
+TXN-2026-014,2026-09-25,Travel & Transport,Hotel Accommodation,Starbucks,5.0,316.3,,Credit Card
+TXN-2026-030,2026-10-08,Travel & Transport,Airport Taxi Uber,Starbucks,3.0,34.68,,M-Pesa
+TXN-2026-012,2026-10-14,Travel & Transport,Hotel Accommodation,WeWork,9.0,318.77,,Credit Card
+TXN-2026-028,2026-10-20,Hardware & Electronics,Noise Cancelling Headphones,OfficeDepot,10.0,241.03,,Credit Card
+TXN-2026-002,2026-10-21,Hardware & Electronics,Power Banks,Apple Store,8.0,119.37,,M-Pesa
+TXN-2026-023,2026-11-03,Utilities & Services,SaaS Tools,Uber,2.0,196.73,,Bank Wire
+TXN-2026-029,2026-11-16,Food & Catering,Client Dinner,Apple Store,4.0,310.15,,M-Pesa
+TXN-2026-004,2026-12-14,Food & Catering,Weekly Team Lunch,Local Electronics,5.0,166.23,,Apple Pay
+TXN-2026-027,2026-12-16,Food & Catering,Client Dinner,CloudHost,2.0,231.44,,Credit Card
+TXN-2026-022,2026-12-20,Utilities & Services,Office Security System,WeWork,4.0,220.75,,Bank Wire
+,,,,,,Grand Total:,,

@@ -1,0 +1,100 @@
+﻿BUSINESS LOAN AGREEMENT
+This Business Loan Agreement (the "Agreement") is entered into as of Oct 22, 2026, by and between:
+
+
+* LENDER: Apex Capital Funding LLC, a Delaware Limited Liability Company ("Lender"), and
+* BORROWER: Joseph Njuguna, doing business as Nairobi ("Borrower").
+
+
+WHEREAS, Borrower desires to obtain a commercial loan from Lender, and Lender agrees to make such loan subject to the extreme and onerous terms and conditions set forth below.
+
+
+________________
+
+
+SECTION I: TERMS AND CONDITIONS
+Term 1: Interest Rate and Compounding Structure
+* Principal Amount: $100,000.00
+* Stated Annual Interest Rate: 36.00% per annum.
+* Compounding Schedule: Interest shall compound daily on the outstanding balance, yielding an Effective Annual Percentage Rate (APR) exceeding 43.33%.
+* Origination Fee: A non-refundable underwriting fee of $10,000.00 shall be deducted immediately from the loan proceeds prior to disbursement.
+Term 2: Confession of Judgment (Cognovit Clause)
+Borrower hereby irrevocably authorizes and empowers any attorney of any court of record within the United States to appear for Borrower after an alleged event of default, and confess judgment against Borrower in favor of Lender for the full unpaid principal, accrued interest, fees, and collection costs. Borrower explicitly waives all rights to prior notice, service of process, a judicial hearing, or any right to present defenses or counterclaims in court.
+Term 3: Blanket Lien and Personal Guarantee
+* Business Security Interest: Borrower grants Lender a primary, senior security interest (UCC-1 filing) in a blanket lien covering all present and future assets of the business, including but not limited to inventory, equipment, accounts receivable, real estate, cash accounts, and intellectual property.
+* Unconditional Personal Guarantee: Person ("Guarantor") personally guarantees prompt payment of all obligations under this Agreement and pledges all personal real estate, personal bank accounts, and personal property as collateral.
+Term 4: Prepayment Penalty
+Borrower may not reduce the total interest expense by paying off the principal amount prior to the maturity date. In the event of early payment, Borrower shall pay a prepayment fee equal to 100% of the total remaining interest that would have accrued over the full stated life of the loan.
+Term 5: Default Triggers and Cross-Default
+* Short-Term Default: A failure to make any required daily payment by 5:00 PM EST on the due date—even by a single calendar day—constitutes an immediate Event of Default.
+* Acceleration: Upon default, the entire unpaid principal, full contractual interest, and a $5,000 default administrative fee shall become immediately due and payable without notice.
+* Cross-Default Clause: Any default by Borrower or Guarantor under any other commercial credit card, lease, vendor agreement, or loan agreement with any third party shall automatically constitute a default under this Agreement.
+Term 6: Unilateral Amendment Rights
+Lender reserves the right, at its sole and absolute discretion, to alter, amend, or modify any term, fee structure, daily ACH percentage, or interest rate under this Agreement at any time during the loan term. Lender shall provide notice of modification via email, and continued operation of the business constitutes acceptance of the new terms.
+Term 7: Mandatory Daily ACH Debits and Overdraft Penalties
+* Daily Remittance: Borrower agrees to grant Lender direct access to automatically debit $850.00 per business day directly from Borrower's bank account via Automated Clearing House (ACH).
+* NSF / Failed Payment Fee: If an ACH transaction is rejected due to insufficient funds, Borrower shall be assessed a $250 NSF fee per attempt, up to two attempts per day. Lender retains the right to attempt debits continuously until cleared.
+
+
+________________
+
+
+SECTION II: RED FLAG ANALYSIS & HAZARD EXPLANATION
+This document illustrates standard high-risk and predatory lending tactics commonly found in unregulated merchant cash advances (MCAs) and short-term commercial contracts. Below is an analysis of why these clauses are disastrous to business operations.
+
+
+Clause
+	Predatory Standard
+	Financial & Legal Hazard to Business
+	1. Daily Compounding
+	Effective APR > 43% + $10k upfront deduction
+	Drastically increases the total cost of capital. Daily compounding accelerates debt growth faster than typical business revenue cycles can support.
+	2. Confession of Judgment
+	Complete waiver of legal defense rights
+	Allows the lender to obtain a court judgment and freeze bank accounts instantly without giving the business a chance to contest claims in court.
+	3. Blanket Lien + Guarantee
+	All current/future assets pledged
+	Severely limits operational flexibility. Prevents securing future financing and puts personal assets (homes, savings) at risk for business debts.
+	4. Prepayment Penalty
+	100% remaining interest charged
+	Traps the borrower in high-cost debt. Refinancing or paying off early provides zero cost savings.
+	5. Strict Default & Cross
+	1-day payment grace period
+	Extremely fragile margin for error. Minor temporary cash flow hiccups result in immediate insolvency and collection enforcement.
+	6. Unilateral Amendment
+	Lender modifies contract at will
+	Destroys financial predictability. The lender can raise fees or interest rates arbitrarily whenever they perceive elevated risk.
+	7. Mandatory Daily ACH
+	Automatic daily bank sweeps
+	Causes severe working capital strain. Rejection leads to cascading penalty fees, rapidly draining business operating accounts.
+	
+
+________________
+
+
+ACKNOWLEDGMENT AND EXECUTION
+This sample document is intended solely for educational, diagnostic, and risk identification purposes. Executing terms similar to those outlined above carries an extremely high risk of business insolvency.
+
+
+BORROWER:
+
+
+________________
+
+
+
+
+Person, Authorized Signatory
+Date: Date
+
+
+LENDER:
+
+
+________________
+
+
+
+
+Apex Capital Funding LLC, Representative
+Date: Date
