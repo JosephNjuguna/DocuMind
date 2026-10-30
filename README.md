@@ -1,10 +1,16 @@
-# DocuMind
-
 ![DocuMind](./demoimages/documind-banner-v2.png)
 
-**Team Name:** four.dev
+## Team Name:
+four.dev
 
-**Challenge Area:** Financial Inclusion / Trust & Misinformation Automation
+## Challenge Area:
+Financial Inclusion / Trust & Misinformation Automation
+
+## Live Demo Link
+https://josephnjuguna.github.io/DocuMind/ui/index.html#documents
+
+## Slides Pages
+https://docs.google.com/presentation/d/1nEjx0E8J7K6lEM_rcohQGCW-KGNRShi3YFshlox5L9k/edit?usp=sharing
 
 ## 1. Project Overview
 
