@@ -32,6 +32,9 @@ DocuMind Local provides receipt and invoice uploads, AI-powered data extraction,
 ![DocuMind](./demoimages/dataupload.png)
 Users can review and correct extracted information before confirming a document and saving it as an invoice. This keeps human review an important part of the process.
 
+## Multiple Data Processing are Queued
+When processing multiple data, the local AI process document all documents one at a time.
+![DocuMind](./demoimages/documentqueue.png)
 
 ## Viewing Dashboard
 a dashboard user can view all their data analysez and arranged in accordance to their importance

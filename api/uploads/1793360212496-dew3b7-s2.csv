@@ -1,0 +1,37 @@
+SKU,Product Name,Category,Unit,Opening Stock,Units Sold,Closing Stock,Reorder Level,Stock Status,"Sales Revenue (KES, excl. VAT)"
+BLD-001,"Machine-Cut Building Block 6""",Building Materials,Piece,3650,,3650,730,OK,
+BLD-002,"Wire Nails 4"" (per kg)",Building Materials,Kg,370,,370,74,OK,
+CEM-001,Bamburi Tembo Cement 50kg,Cement,Bag,1120,221,899,224,OK,172380
+CEM-002,Savannah Cement 50kg,Cement,Bag,280,,280,56,OK,
+CEM-003,Rhino Cement 42.5N 50kg,Cement,Bag,430,,430,86,OK,
+ELC-001,Twin & Earth Cable 2.5mm 100m,Electrical,Roll,25,,25,5,OK,
+ELC-002,Twin & Earth Cable 1.5mm 100m,Electrical,Roll,40,,40,8,OK,
+ELC-003,13A Double Socket Outlet,Electrical,Piece,52,,52,10,OK,
+ELC-004,LED Bulb 12W,Electrical,Piece,120,33,87,24,OK,8250
+ELC-005,MCB Circuit Breaker 20A,Electrical,Piece,150,,150,30,OK,
+HRD-001,Claw Hammer 16oz,Tools & Hardware,Piece,18,,18,4,OK,
+HRD-002,Wheelbarrow Heavy Duty,Tools & Hardware,Piece,15,,15,3,OK,
+HRD-003,Padlock 50mm,Tools & Hardware,Piece,90,9,81,18,OK,5850
+HRD-004,"Door Hinge 4"" (pair)",Tools & Hardware,Pair,62,23,39,12,OK,6440
+HRD-005,Mortise Door Lock Set,Tools & Hardware,Set,60,8,52,12,OK,11600
+PLB-001,"PVC Pipe 4"" (110mm) 6m",Plumbing,Piece,110,16,94,22,OK,38400
+PLB-002,"PVC Pipe 2"" (50mm) 6m",Plumbing,Piece,65,20,45,13,OK,19000
+PLB-004,"Brass Tap 1/2""",Plumbing,Piece,75,,75,15,OK,
+PLB-005,"HDPE Pipe 1"" 100m Coil",Plumbing,Coil,18,2,16,4,OK,17000
+PNT-001,Crown Silk Vinyl Emulsion 20L,Paints & Finishes,Bucket,16,,16,3,OK,
+PNT-002,Basco Emulsion Paint 4L,Paints & Finishes,Tin,7,,7,2,OK,
+PNT-004,"Paint Roller 9"" with Tray",Paints & Finishes,Set,60,,60,12,OK,
+PNT-005,Sika Tile Adhesive 20kg,Paints & Finishes,Bag,70,,70,14,OK,
+PNT-006,Ceramic Floor Tile 40x40cm,Paints & Finishes,Sq m,280,,280,56,OK,
+ROF-001,Box Profile Iron Sheet G30 3m,Roofing,Sheet,840,179,661,168,OK,152150
+ROF-002,Box Profile Iron Sheet G28 3m,Roofing,Sheet,320,,320,64,OK,
+ROF-003,"Roofing Nails 3"" (per kg)",Roofing,Kg,180,,180,36,OK,
+ROF-004,Timber 2x4 Cypress 12ft,Roofing,Piece,140,18,122,28,OK,11700
+SAF-001,Safety Gumboots,Safety Gear,Pair,55,,55,11,OK,
+SAF-002,Work Gloves,Safety Gear,Pair,170,,170,34,OK,
+STL-001,Y12 Steel Bar 12m,Steel & Reinforcement,Piece,180,,180,36,OK,
+STL-002,Y10 Steel Bar 12m,Steel & Reinforcement,Piece,66,,66,13,OK,
+STL-003,Y8 Steel Bar 12m,Steel & Reinforcement,Piece,65,,65,13,OK,
+STL-004,Binding Wire (per kg),Steel & Reinforcement,Kg,12,,12,2,OK,
+STL-005,BRC Mesh A142 Sheet,Steel & Reinforcement,Sheet,10,,10,2,OK,
+,,,,,,,,Total:,442770

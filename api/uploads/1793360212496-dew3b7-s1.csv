@@ -1,0 +1,122 @@
+INVOICE ID,Sale Date,Customer Name,Customer Contact,SKU,Product Name,Category,Brand / Supplier,Unit,Qty Sold,Unit Price (KES),Amount (KES),VAT Rate (%),VAT Amount (KES),Total Amount (KES),Payment Status,Payment Date,Payment Method
+SAL-2026-0001,2026-08-29T03:00:00+03:00,Mombasa Road Electricals,+254 700 000 111,ELC-004,LED Bulb 12W,Electrical,Philips,Piece,33,250,8250,0.16,1320,9570,Paid,2026-09-01T03:00:00+03:00,Cheque
+SAL-2026-0002,2026-08-29T03:00:00+03:00,Mwangi & Sons Contractors,+254 700 000 101,CEM-001,Bamburi Tembo Cement 50kg,Cement,Bamburi Cement,Bag,103,780,80340,0.16,12854.4,93194.4,Paid,2026-09-12T03:00:00+03:00,M-Pesa
+SAL-2026-0003,2026-08-31T03:00:00+03:00,Akinyi Painters & Decorators,+254 700 000 115,HRD-003,Padlock 50mm,Tools & Hardware,Yale,Piece,5,650,3250,0.16,520,3770,Paid,2026-09-04T03:00:00+03:00,M-Pesa
+SAL-2026-0004,2026-08-31T03:00:00+03:00,Wanjiru Interiors,+254 700 000 113,HRD-004,"Door Hinge 4"" (pair)",Tools & Hardware,Generic,Pair,23,280,6440,0.16,1030.4,7470.4,Paid,2026-09-10T03:00:00+03:00,Bank Transfer
+SAL-2026-0005,2026-09-02T03:00:00+03:00,Karen Homes Ltd,+254 700 000 106,ROF-001,Box Profile Iron Sheet G30 3m,Roofing,Mabati Rolling Mills,Sheet,132,850,112200,0.16,17952,130152,Paid,2026-09-13T03:00:00+03:00,Cheque
+SAL-2026-0006,2026-09-03T03:00:00+03:00,Rift Valley Builders,+254 700 000 103,ROF-004,Timber 2x4 Cypress 12ft,Roofing,Local Sawmill,Piece,18,650,11700,0.16,1872,13572,Paid,2026-09-13T03:00:00+03:00,Cheque
+SAL-2026-0007,2026-09-04T03:00:00+03:00,Karen Homes Ltd,+254 700 000 106,CEM-001,Bamburi Tembo Cement 50kg,Cement,Bamburi Cement,Bag,115,780,89700,0.16,14352,104052,Paid,2026-09-17T03:00:00+03:00,M-Pesa
+SAL-2026-0008,2026-09-04T03:00:00+03:00,Walk-in Customer,-,CEM-001,Bamburi Tembo Cement 50kg,Cement,Bamburi Cement,Bag,3,780,2340,0.16,374.4,2714.4,Paid,2026-09-04T03:00:00+03:00,Cash
+SAL-2026-0009,2026-09-04T03:00:00+03:00,Nyali Plumbing Services,+254 700 000 109,PLB-005,"HDPE Pipe 1"" 100m Coil",Plumbing,Kenpoly,Coil,2,8500,17000,0.16,2720,19720,Paid,2026-09-07T03:00:00+03:00,Bank Transfer
+SAL-2026-0010,2026-09-05T03:00:00+03:00,Wanjiru Interiors,+254 700 000 113,HRD-003,Padlock 50mm,Tools & Hardware,Yale,Piece,4,650,2600,0.16,416,3016,Paid,2026-09-05T03:00:00+03:00,Cheque
+SAL-2026-0011,2026-09-05T03:00:00+03:00,Mutua Plumbers & Fitters,+254 700 000 110,PLB-002,"PVC Pipe 2"" (50mm) 6m",Plumbing,Kenpipe,Piece,20,950,19000,0.16,3040,22040,Paid,2026-09-08T03:00:00+03:00,M-Pesa
+SAL-2026-0012,2026-09-05T03:00:00+03:00,Mutua Plumbers & Fitters,+254 700 000 110,PLB-001,"PVC Pipe 4"" (110mm) 6m",Plumbing,Kenpipe,Piece,16,2400,38400,0.16,6144,44544,Paid,2026-09-15T03:00:00+03:00,Bank Transfer
+SAL-2026-0013,2026-09-07T03:00:00+03:00,Wanjiru Interiors,+254 700 000 113,HRD-005,Mortise Door Lock Set,Tools & Hardware,Yale,Set,8,1450,11600,0.16,1856,13456,Paid,2026-09-13T03:00:00+03:00,Bank Transfer
+SAL-2026-0014,2026-09-07T03:00:00+03:00,Lakeside Constructors,+254 700 000 104,ROF-001,Box Profile Iron Sheet G30 3m,Roofing,Mabati Rolling Mills,Sheet,47,850,39950,0.16,6392,46342,Paid,2026-09-13T03:00:00+03:00,Bank Transfer
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+,,,,,,,,,,Total:,442770,,70843.2,513613.2
